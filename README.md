@@ -44,7 +44,6 @@ Note: Installing and running this app, which uses Couchbase Lite Enterprise Edit
 
 - Setup cbl-ionic by installing the dependencies and building the plugin 
     ```shell
-    cd cbl-ionic
     npm install
     cd ios
     pod install
