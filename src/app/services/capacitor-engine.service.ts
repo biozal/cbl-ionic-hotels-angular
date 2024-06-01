@@ -1,15 +1,14 @@
 import { Injectable } from '@angular/core';
-import { CapacitorEngine } from 'cbl-ionic';
-import  'cblite';
-import { EngineLocator } from 'cblite';
+import { CapacitorEngine, EngineLocator } from 'cbl-ionic';
 
 @Injectable({
   providedIn: 'root'
 })
 
 export class CapacitorEngineService {
-  engine: CapacitorEngine = new CapacitorEngine();
-  engineLocator: EngineLocator = EngineLocator.getInstance;
+  engine: CapacitorEngine;
 
-  constructor() { }
+  constructor() {
+    this.engine = new CapacitorEngine();
+  }
 }
