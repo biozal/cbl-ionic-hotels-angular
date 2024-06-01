@@ -65,7 +65,7 @@ Note: Installing and running this app, which uses Couchbase Lite Enterprise Edit
 
 - Build the app:
 ```shell 
-  npm build
+  npm run build
   npx cap sync
  ```
 - Run the app on your device from Xcode:

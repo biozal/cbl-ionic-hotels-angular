@@ -21,7 +21,6 @@ end
 target 'App' do
   capacitor_pods
   # Add your Pods here
-  pod 'CbliteSwiftJsLib', :path => '../../../cbl-js-swift'
 end
 
 post_install do |installer|

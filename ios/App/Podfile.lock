@@ -10,11 +10,8 @@ PODS:
     - Capacitor
   - CapacitorStatusBar (6.0.0):
     - Capacitor
-  - CblIonic (0.1.6):
+  - CblIonic (0.1.7):
     - Capacitor
-    - CbliteSwiftJsLib
-    - CouchbaseLite-Swift-Enterprise (~> 3.1)
-  - CbliteSwiftJsLib (0.1.6):
     - CouchbaseLite-Swift-Enterprise (~> 3.1)
   - CouchbaseLite-Swift-Enterprise (3.1.7)
 
@@ -26,7 +23,6 @@ DEPENDENCIES:
   - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
   - CblIonic (from `../../../cbl-ionic`)
-  - CbliteSwiftJsLib (from `../../../cbl-js-swift`)
 
 SPEC REPOS:
   trunk:
@@ -47,8 +43,6 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/status-bar"
   CblIonic:
     :path: "../../../cbl-ionic"
-  CbliteSwiftJsLib:
-    :path: "../../../cbl-js-swift"
 
 SPEC CHECKSUMS:
   Capacitor: 559d073c4ca6c27f8e7002c807eea94c3ba435a9
@@ -57,10 +51,9 @@ SPEC CHECKSUMS:
   CapacitorHaptics: 9ebc9363f0e9b8eb4295088a0b474530acf1859b
   CapacitorKeyboard: deacbd09d8d1029c3681197fb05d206b721d5f73
   CapacitorStatusBar: 2e4369f99166125435641b1908d05f561eaba6f6
-  CblIonic: cbef8475dd64494a797a83902a8b3cc8a5341875
-  CbliteSwiftJsLib: 6d77def88c1b97297cd8cf1a06baed3ec8ee7187
+  CblIonic: 79c531f1b8bfc82318a46c5f9b5437b446fd0e68
   CouchbaseLite-Swift-Enterprise: 7fe8b730168a14ec96adcefb89a0109a4ee5b9f0
 
-PODFILE CHECKSUM: cb2dc12aa1c973dd00d9530f4c29cde9a9b546f0
+PODFILE CHECKSUM: 31ac4487ce84d98f5085e5bdbda5a1a5dc566fcb
 
 COCOAPODS: 1.14.3
