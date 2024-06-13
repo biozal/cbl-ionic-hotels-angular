@@ -16,7 +16,8 @@ import {
   Collection,
   MutableDocument,
   LogDomain,
-  LogLevel } from 'cbl-ionic';
+  LogLevel, 
+  MaintenanceType} from 'cbl-ionic';
 
 import { Hotel } from '../models/hotel';
 
@@ -69,7 +70,6 @@ export class DatabaseService {
     this.database = new Database("travel", dc);
     //setup logging
     this.database.setLogLevel(LogDomain.ALL, LogLevel.VERBOSE);
-
     await this.database.open();
 
     //added collection since we save to collections now, not the database
